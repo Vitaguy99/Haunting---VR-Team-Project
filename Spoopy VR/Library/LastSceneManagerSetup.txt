@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/Rhi Test Scene.unity
+=======
+- path: Assets/GoogleVR/Demos/Scenes/HelloVR.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
