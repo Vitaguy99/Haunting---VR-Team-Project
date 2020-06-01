@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Looking
   - Ghost
+  - Item
   layers:
   - Default
   - TransparentFX
