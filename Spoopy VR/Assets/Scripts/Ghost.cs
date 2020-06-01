@@ -7,10 +7,12 @@ public class Ghost : MonoBehaviour
     public GameObject ghost;
     public GameObject Player;
     public float Speed;
+    public float RotateSpeed;
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards (transform.position, Player.transform.position, Speed * Time.deltaTime); 
+        transform.position = Vector3.MoveTowards (transform.position, Player.transform.position, Speed * Time.deltaTime);
+        transform.RotateAround(Player.transform.position, Vector3.up, RotateSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider Coll)
@@ -18,6 +20,7 @@ public class Ghost : MonoBehaviour
         if (Coll.gameObject.tag == "Looking")
         {
             Speed = 0f;
+            RotateSpeed = 0f;
         }
     }
 
@@ -26,6 +29,7 @@ public class Ghost : MonoBehaviour
         if (Coll.gameObject.tag == "Looking")
         {
             Speed = 2f;
+            RotateSpeed = 5f;
         }
     }
 }

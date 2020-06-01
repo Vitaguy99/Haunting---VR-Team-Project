@@ -729,6 +729,7 @@ MonoBehaviour:
   ghost: {fileID: 660024215}
   Player: {fileID: 907292807}
   Speed: 2
+  RotateSpeed: 5
 --- !u!65 &660024217
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -817,7 +818,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &660024222
 MonoBehaviour:
@@ -2124,7 +2125,7 @@ Transform:
   m_GameObject: {fileID: 1807195191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.15454006, y: -0.5, z: 2.7444253}
-  m_LocalScale: {x: 11.959, y: 1, z: 61.787895}
+  m_LocalScale: {x: 92.44151, y: 1, z: 61.787895}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
