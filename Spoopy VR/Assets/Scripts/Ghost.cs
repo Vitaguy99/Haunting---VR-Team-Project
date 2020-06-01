@@ -25,7 +25,7 @@ public class Ghost : MonoBehaviour
     {
         if (Coll.gameObject.tag == "Looking")
         {
-            Speed = 5f;
+            Speed = 2f;
         }
     }
 }
