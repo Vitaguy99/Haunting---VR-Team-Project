@@ -743,7 +743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &404027866
 Transform:
   m_ObjectHideFlags: 0
@@ -959,7 +959,6 @@ MonoBehaviour:
   ghost: {fileID: 660024215}
   Player: {fileID: 907292807}
   Speed: 2
-  RotateSpeed: 5
 --- !u!65 &660024217
 BoxCollider:
   m_ObjectHideFlags: 0
