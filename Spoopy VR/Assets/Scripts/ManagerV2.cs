@@ -5,10 +5,17 @@ using UnityEngine;
 public class ManagerV2 : MonoBehaviour
 {
     public GameObject selectedObject;
-
+    [Space]
+    [Header("Ghost Behaviour")]
     public GameObject ghost;
     public GameObject Player;
     public float Speed;
+    [Space]
+    public bool ghostRotate = false;
+    public float RotateSpeed;
+    [Space]
+    [Header("Game Over")]
+    public GameObject deathTouch;
 
     void Start()
     {
@@ -19,6 +26,11 @@ public class ManagerV2 : MonoBehaviour
     void Update()
     {
         ghost.transform.position = Vector3.MoveTowards(ghost.transform.position, Player.transform.position, Speed * Time.deltaTime);
+
+        if (ghostRotate == true)
+        {
+            ghost.transform.RotateAround(Player.transform.position, Vector3.up, RotateSpeed * Time.deltaTime);
+        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -51,6 +63,7 @@ public class ManagerV2 : MonoBehaviour
             selectedObject = obj;
 
             Speed = 0f;
+            RotateSpeed = 0f;
 
             Renderer[] rs = selectedObject.GetComponentsInChildren<Renderer>();
             foreach (Renderer r in rs)
@@ -83,6 +96,14 @@ public class ManagerV2 : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider Death)
+    {
+        if (Death.gameObject.tag == "Ghost")
+        {
+            deathTouch.SetActive(true);
+        }
+    }
+
     void ClearSelection()
     {
         if (selectedObject == null)
@@ -97,6 +118,7 @@ public class ManagerV2 : MonoBehaviour
         }  
         
         Speed = 2f;
+        RotateSpeed = 5f;
         selectedObject = null;
     }
 }

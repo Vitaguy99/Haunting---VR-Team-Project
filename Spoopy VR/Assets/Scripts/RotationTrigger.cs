@@ -11,16 +11,30 @@ public class RotationTrigger : MonoBehaviour
 
     public GameObject timerOff;
     public GameObject lookOff;
+
+    private bool lockCounter;
+
+    void Start()
+    {
+        lockCounter = true;
+    }
+
     void Update()
     {
-        if (playerRotationTrigger.transform.rotation.eulerAngles.y == 180)
+        if (lockCounter == true)
         {
-            findText.SetActive(true);
-            Ghost.SetActive(true);
+            if (playerRotationTrigger.transform.rotation.eulerAngles.y == 180)
+            {
+                findText.SetActive(true);
+                Ghost.SetActive(true);
 
-            timerOff.SetActive(false);
-            lookOff.SetActive(false);
+                timerOff.SetActive(false);
+                lookOff.SetActive(false);
 
+                lockCounter = false;
+
+            }
         }
+        
     }
 }
