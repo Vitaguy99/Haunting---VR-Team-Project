@@ -20,6 +20,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject rules;
     public GameObject ghostOn;
     public GameObject startText;
+    public GameObject tracker;
 
     void Start()
     {
@@ -70,5 +71,6 @@ public class GameplayManager : MonoBehaviour
         ghostOn.SetActive(true);
         trackerText.SetActive(true);
         startText.SetActive(false);
+        tracker.SetActive(true);
     }
 }
