@@ -13,10 +13,6 @@ public class ManagerV2 : MonoBehaviour
     [Space]
     public bool ghostRotate = false;
     public float RotateSpeed;
-    [Space]
-    [Header("Game Over")]
-    public GameObject deathTouch;
-    public GameObject blackOut;
 
     void Start()
     {
@@ -94,15 +90,6 @@ public class ManagerV2 : MonoBehaviour
                 m.color = Color.green;
                 r.material = m;
             }
-        }
-    }
-
-    private void OnTriggerEnter(Collider Death)
-    {
-        if (Death.gameObject.tag == "Ghost")
-        {
-            deathTouch.SetActive(true);
-            blackOut.SetActive(false);
         }
     }
 

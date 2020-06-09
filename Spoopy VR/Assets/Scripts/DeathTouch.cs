@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class DeathTouch : MonoBehaviour
 {
-    public GameObject GameOver;
+    [Header("Game Over")]
+    public GameObject deathTouch;
+    public GameObject blackOut;
 
     private void OnTriggerEnter(Collider Death)
     {
         if (Death.gameObject.tag == "Ghost")
         {
-            GameOver.SetActive(true);
+            deathTouch.SetActive(true);
+            blackOut.SetActive(false);
         }
     }
 }
