@@ -16,6 +16,7 @@ public class ManagerV2 : MonoBehaviour
     [Space]
     [Header("Game Over")]
     public GameObject deathTouch;
+    public GameObject blackOut;
 
     void Start()
     {
@@ -101,6 +102,7 @@ public class ManagerV2 : MonoBehaviour
         if (Death.gameObject.tag == "Ghost")
         {
             deathTouch.SetActive(true);
+            blackOut.SetActive(false);
         }
     }
 

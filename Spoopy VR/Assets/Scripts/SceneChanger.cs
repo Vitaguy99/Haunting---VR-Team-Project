@@ -22,4 +22,9 @@ public class SceneChanger : MonoBehaviour
     {
         Application.OpenURL(url);
     }
+
+    public void Reload()
+    {
+        SceneManager.GetActiveScene();
+    }
 }
