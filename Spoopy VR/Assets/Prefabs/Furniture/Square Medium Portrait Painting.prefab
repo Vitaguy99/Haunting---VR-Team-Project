@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8309855875231861809}
   m_Layer: 0
   m_Name: Square Medium Portrait Painting Good
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 6665737875303604493}
   m_Layer: 0
   m_Name: Square Medium Portrait Painting
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 9160824026747283917}
   m_Layer: 0
   m_Name: Square Medium Portrait Painting Bad
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

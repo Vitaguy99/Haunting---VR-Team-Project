@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6831479036346676690}
   m_Layer: 0
   m_Name: Statue Head
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 6831479036643769204}
   m_Layer: 0
   m_Name: Statue
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
