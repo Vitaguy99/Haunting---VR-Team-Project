@@ -61,4 +61,8 @@ public class ItemChange : MonoBehaviour
     {
         scoreValue += 1;
     }
+    public void ResetIncrement()
+    {
+        scoreValue = 0;
+    }
 }

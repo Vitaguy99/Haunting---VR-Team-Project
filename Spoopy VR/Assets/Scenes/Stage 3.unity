@@ -2473,6 +2473,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3475666615177962982, guid: 850b5f40926b82f43bcf4a883a66c200,
+        type: 3}
+      propertyPath: m_Text
+      value: /2
+      objectReference: {fileID: 0}
     - target: {fileID: 3475666615419692167, guid: 850b5f40926b82f43bcf4a883a66c200,
         type: 3}
       propertyPath: blackOut
@@ -4689,8 +4694,128 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 192721834}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284925525626, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 192721834}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597284991854044, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 192721834}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285122474884, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 192721834}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801597285947055707, guid: 50b34a167c7d8c14caabd288235f0469,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8801597286012201822, guid: 50b34a167c7d8c14caabd288235f0469,
         type: 3}
