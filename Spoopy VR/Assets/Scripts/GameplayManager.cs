@@ -21,6 +21,9 @@ public class GameplayManager : MonoBehaviour
     public GameObject ghostOn;
     public GameObject startText;
     public GameObject tracker;
+    [Space]
+    [Space]
+    public GameObject thunder;
 
     void Start()
     {
@@ -32,7 +35,12 @@ public class GameplayManager : MonoBehaviour
         if (startNow == true)
         {
             TimerStart();
-        }        
+        }
+        
+        if (blackOut == false)
+        {
+            
+        }
     }
 
     void TimerStart()
@@ -55,7 +63,9 @@ public class GameplayManager : MonoBehaviour
         {
             blackOut.SetActive(false);
             timerText.SetActive(false);
+            thunder.SetActive(true);
             rules.SetActive(true);
+            
         }
     }
 
