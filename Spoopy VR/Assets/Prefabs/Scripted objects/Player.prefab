@@ -66,9 +66,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0545129375bcecc479447e3711e71de7, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -113,7 +113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 0}
+  m_AnchoredPosition: {x: 23.6, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3475666615177962981
@@ -144,9 +144,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0545129375bcecc479447e3711e71de7, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -224,9 +224,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0545129375bcecc479447e3711e71de7, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -276,6 +276,8 @@ MonoBehaviour:
   rules: {fileID: 3475666615832842711}
   ghostOn: {fileID: 0}
   startText: {fileID: 0}
+  tracker: {fileID: 0}
+  thunder: {fileID: 0}
 --- !u!1 &3475666615670031632
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,9 +400,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0545129375bcecc479447e3711e71de7, type: 3}
     m_FontSize: 14
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -451,6 +453,8 @@ MonoBehaviour:
   rules: {fileID: 0}
   ghostOn: {fileID: 0}
   startText: {fileID: 3475666615419692161}
+  tracker: {fileID: 0}
+  thunder: {fileID: 0}
 --- !u!114 &3475666615832842731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,8 +467,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d277ef6b782e644cb846d82977904eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemGood: {fileID: 0}
-  itemBad: {fileID: 0}
+  itemGood01: {fileID: 0}
+  itemBad01: {fileID: 0}
+  itemGood02: {fileID: 0}
+  itemBad02: {fileID: 0}
+  itemGood03: {fileID: 0}
+  itemBad03: {fileID: 0}
+  foundObjects: {fileID: 0}
+  changedItems: 0
+  correctUI: {fileID: 0}
+  enviormentParent: {fileID: 0}
+  byeGhost: {fileID: 0}
   incorrectSound: {fileID: 0}
 --- !u!1 &3475666615929054236
 GameObject:
@@ -615,9 +628,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0545129375bcecc479447e3711e71de7, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
