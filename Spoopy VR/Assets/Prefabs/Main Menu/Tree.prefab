@@ -193,6 +193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesh_DeadTree
       objectReference: {fileID: 0}
+    - target: {fileID: 6344260484970014149, guid: 96a091e57ad4b2247924fcb9665987ef,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 330840850a1675345a471f6c295ab564, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96a091e57ad4b2247924fcb9665987ef, type: 3}
 --- !u!4 &1751842483653228088 stripped
