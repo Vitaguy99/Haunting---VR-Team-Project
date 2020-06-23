@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu GreyBoxing.unity
-    guid: bfcaf6886a5f6c246ad1dab8bd0263db
+    path: Assets/Scenes/Main Menu GreyBoxing 1.unity
+    guid: e78f078779363d34fa061d213548f6fa
   - enabled: 1
     path: Assets/Scenes/Stage 1.unity
     guid: 4a8c98d6382ac4d459015ae23d3d5669
