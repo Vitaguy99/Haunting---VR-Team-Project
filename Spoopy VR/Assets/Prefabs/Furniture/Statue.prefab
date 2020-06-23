@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2618430645168477627, guid: 79d6b6ed9c0d2a24da81f7661e627c90, type: 3}
+  - {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2618430645168477627, guid: 79d6b6ed9c0d2a24da81f7661e627c90, type: 3}
+  - {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -374,7 +374,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2618430645168477627, guid: 79d6b6ed9c0d2a24da81f7661e627c90, type: 3}
+  - {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -720,7 +720,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2618430645168477627, guid: 79d6b6ed9c0d2a24da81f7661e627c90, type: 3}
+  - {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -799,7 +799,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2618430645168477627, guid: 79d6b6ed9c0d2a24da81f7661e627c90, type: 3}
+  - {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1479,6 +1479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesh_Bust_Clothing
       objectReference: {fileID: 0}
+    - target: {fileID: 6500354570873068212, guid: 7a37a11bd33d3d84080d1b8a0b30d51e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f98116fe793355b45b844bb2c1329808, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a37a11bd33d3d84080d1b8a0b30d51e, type: 3}
 --- !u!4 &5239251063095792923 stripped
