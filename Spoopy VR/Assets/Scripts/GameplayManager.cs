@@ -24,6 +24,7 @@ public class GameplayManager : MonoBehaviour
     [Space]
     [Space]
     public GameObject thunder;
+    public GameObject lookingSoundOff;
 
     void Start()
     {
@@ -65,7 +66,8 @@ public class GameplayManager : MonoBehaviour
             timerText.SetActive(false);
             thunder.SetActive(true);
             rules.SetActive(true);
-            
+            lookingSoundOff.SetActive(false);
+
         }
     }
 
